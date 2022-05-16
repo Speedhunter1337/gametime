@@ -7,7 +7,7 @@
 
 <br>
 
-Thank you for the opportunity to work on this challenge. I tried to do as much as I can within the allocated amount of time. The only additional npm packages I installed was as following:
+Thank you for the opportunity to work on this challenge. I tried to do as much as I can within the allocated amount of time. The only additional npm packages I installed was as follows:
 
 <br>
 
