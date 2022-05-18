@@ -4,7 +4,6 @@ import "./App.css";
 import EventList from "./EventList";
 import Logo from "./Logo";
 import Search from "./Search";
-// import EventItem from "/EventItem";
 
 const App = () => {
   const [results, setResults] = useState([]);
@@ -40,7 +39,7 @@ const App = () => {
         },
       });
 
-      if (res.status != 200) {
+      if (res.status !== 200) {
         setResults([]);
         return;
       }
@@ -93,7 +92,6 @@ const App = () => {
           url={"https://gametime.co/"}
         />
         <Search
-          hasResults={results.length > 0}
           updateSearchTerm={updateSearchTerm}
           term={term}
         />

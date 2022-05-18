@@ -21,16 +21,6 @@ body {
   width: 100%;
 }
 
-/*.banner-container {
-  height: 50vh;
-  width: 100%;
-}
-
-.banner-image {
-  height: 100%;
-  width: 100%;
-}*/
-
 .svg-logo {
   width: 250px;
   animation: fade-in 5s;
